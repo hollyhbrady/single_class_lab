@@ -20,7 +20,9 @@ class Student:
         return "I can talk!"
 
     def say_favourite_language(self, lang):
-        return "I love " + lang
+        # return "I love " + lang
+        return f"I love {lang}"
+        # both options work - second can be easier for a long sentence
 
     
 
